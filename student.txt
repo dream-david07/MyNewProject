@@ -1,0 +1,5 @@
+Thelma, 78
+Adamu, 67
+Anita, 56
+David, 99
+Mark, 100

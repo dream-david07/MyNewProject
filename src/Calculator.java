@@ -7,10 +7,10 @@ public class Calculator {
         char operator;
 
 
-        System.out.print("Enter first number: ");
+        System.out.print("Type first number: ");
         num1 = scanner.nextDouble();
 
-        System.out.print("Enter operator (+, -, *, /): ");
+        System.out.print("Type operator (+, -, *, /): ");
         operator = scanner.next().charAt(0);
 
         System.out.print("Enter second number: ");
@@ -42,6 +42,6 @@ public class Calculator {
                 System.out.println("Invalid operator!");
         }
 
-//        scanner.close();
+        scanner.close();
     }
 }
